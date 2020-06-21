@@ -1,5 +1,5 @@
  private void display() {      
-        JTextArea TxtA = new  JTextArea("", 20, 20);
+        JTextArea TxtA = new  JTextArea();
         JPanel panel = new JPanel(new GridLayout(0, 1));
         panel.add(new JLabel("Komentar"));
         panel.add(TxtA);
